@@ -1,0 +1,338 @@
+body{
+margin:0%;
+}
+.header{
+height: 70px;
+background-color: rgba(25, 28, 215, 0.902);
+font-family: JioType,helvetica,arial,sans-serif;
+}
+.header-left{
+    height:70px;
+width: 220px;
+float:left;
+}
+.header-center{
+    height: 70px;
+    width: 680px;
+    float: left;
+    
+}
+.header-right{
+    height: 70px;
+    width: 310px;
+    float: left;
+}
+.search-bar{
+    padding-left: 40px;
+    padding-top: 20px;
+    
+    
+}
+.search{
+    border-radius: 13px;
+    width: 225px;
+    height: 30px;
+    border: none;
+    background-color: #b7b8f3e6;
+}
+
+.header-end{
+    height: 70px;
+    float: left;
+    /* background-color: chartreuse; */
+
+}
+
+.jio-logo{
+    width: 50px;
+    padding-left: 150px;
+    padding-top: 16px;
+}
+.header-center ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+.login-logo{
+    width: 50px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+.options {
+    padding-top: 10px;
+    padding-left: 2px;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+    color: antiquewhite;
+    
+}
+.options :hover{
+color: rgb(166, 150, 150);
+}
+
+.first-image{
+    /* background-color: brown; */
+    width: -webkit-fill-available;
+    height: 375px;
+    float:left;
+}
+.big-text{
+    /* background-color: green;
+    width: 458px;
+    height: 169px;
+    margin-left: 60px;
+    margin-top: 1px;
+    position: absolute;
+    top: 147px;
+    left: 101px; */
+    /* background-color: green; */
+
+
+    width: 458px;
+    height: 169px;
+    margin-left: 1px;
+    margin-top: 1px;
+    position: absolute;
+    top: 146px;
+    left: 159px;
+}
+    
+.tower{
+    width: -webkit-fill-available;
+    height: 375px;
+}
+.text-two{
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-weight: 900;
+    text-transform: none;
+    letter-spacing: -1.92px;
+    line-height: 1.0625;
+    font-size: 53px;
+    letter-spacing: -1.92px;
+    color: aliceblue;
+}
+.button{
+    width: 116px;
+    height: 42px;
+    /* margin-left: 1px; */
+    /* margin-top: 1px; */
+    position: absolute;
+    top: 363px;
+    left: 159px;
+}
+.button-text{
+    border-radius: 25px;
+    font-family: JioType,helvetica,arial,sans-serif;
+    background-color: blue;
+    color: ghostwhite;
+    height: 43px;
+    border: none;
+    word-spacing: 2px;
+    font-weight: bold;
+    float: left;
+}
+
+.jio-options-container{
+    height: 270px;
+    width: 100%;
+    float: left;
+}
+.jio-option {
+    height: 177px;
+    width: 100%;
+    margin-top: 42px;
+    
+    
+}
+.jio-offers{
+    width: 100%;
+    height: 620px;
+    float: left;
+    margin-top: -50px;
+    background-color: rgb(197, 212, 236);
+}
+.offer1{
+    width: 325px;
+    height: 425px;
+    margin-top: 100px;
+    margin-left: 200px;
+    border-radius: 50px;
+    float: left;
+
+}
+.pic1{
+    background-color: #4053e3;
+    position: absolute;
+    width: 324px;
+    height: 143px;
+    margin-top: 383px;
+    margin-left: 200px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.offer1-text{
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-weight: 900;
+    /* text-transform: none; */
+    font-size: 35px;
+    letter-spacing: -1.08px;
+    margin-top: -6px;
+    margin-left: 0px;
+    color: ghostwhite;
+    border-bottom-left-radius: -22px;
+    padding-left: 16px;
+    float: left;
+}
+
+.offer2{
+    width: 325px;
+    height: 425px;
+    margin-top: 100px;
+    margin-left: 20px;
+    border-radius: 50px;
+    float: left;
+    
+
+}
+.pic2{
+    position: absolute;
+    float: left;
+    margin-top: 381px;
+    margin-left: 545px;
+    width: 323px;
+    height: 142px;
+   
+}
+.offer2-text{
+    font-family: JioType,helvetica,arial,sans-serif;
+    float: left;
+    font-weight: 800;
+    text-transform: none;
+    font-size: 35px;
+    letter-spacing:-1.78px;
+    margin-top: -6px;
+    margin-left: 0px;
+    color: rgba(34, 34, 37, 0.847);
+    background-color:#29e8c8;
+    border-bottom-left-radius: 48px;
+    border-bottom-right-radius: 45px;
+    padding-left: 25px;
+   
+    
+}
+.offer3{
+width: 325px;
+height: 425px;
+margin-top: 100px;
+margin-left: 20px;
+border-radius: 50px;
+float: left;
+
+
+}
+.pic3{
+float: left;
+position: absolute;
+    float: left;
+    margin-top: 383px;
+    margin-left: 892px;
+    width: 323px;
+    height: 142px;
+}
+
+.offer3-text{
+float: left;
+font-family: JioType,helvetica,arial,sans-serif;
+    float: left;
+    font-weight: 800;
+    /* text-transform: none; */
+    font-size: 35px;
+    letter-spacing: -1.78px;
+    margin-top: 0px;
+    margin-left: -2px;
+    color: rgba(34, 34, 37, 0.847);
+    border-bottom-left-radius: 48px;
+    border-bottom-right-radius: 45px;
+    /* padding-left: 23px; */
+    height: 140px;
+    background-color: #29ca24;
+}
+
+.word{
+    background-color: gold;
+    float: left;
+    width: 100%;
+    height: 190px;
+}
+.big-word{
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-weight: 900;
+    text-transform: none;
+    font-size: 4rem;
+    letter-spacing: -1.92px;
+    line-height: 1.0625;
+    margin-left: 290px;
+    margin-top: 20px;
+    padding-left: 15px;
+    height: 21px;
+}
+.small-p{
+    font-family: JioType,helvetica,arial,sans-serif;
+    font-weight: 500;
+    text-transform: none;
+    font-size: 1.5rem;
+    letter-spacing: -.12px;
+    line-height: 1.3333333333;
+    width: 836px;
+    padding-left: 260px;
+    padding-top: -24px;
+    margin-top: 54px;
+    padding-top: -42px;
+
+}
+.footer{
+    height: 325px;
+    width: 100%;
+    float: left;
+}
+
+.foot{
+
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .header-left{
+    width: 500px;
+    height: 50px;
+    background-color: blueviolet;
+    float: left;
+}
+.header-center{
+    width: 550px;
+    height: 50px;
+    background-color: rgb(76, 43, 226);
+    float: left;
+}
+.header-right{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(10, 9, 12);
+    float: left;
+} */
